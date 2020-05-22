@@ -15,7 +15,8 @@ public class MediatorMain {
         chatBotActive= user1.send("ChatBot", chatBotActive);
         chatBotActive= user1.send("Hello!", chatBotActive);
         chatBotActive= user1.send("I love my cat!", chatBotActive);
-        chatBotActive= user1.send("ChatBot", chatBotActive);
+        chatBotActive= user1.send("How are you?", chatBotActive);
+        chatBotActive= user2.send("ChatBot", chatBotActive);
     }
 
 }
