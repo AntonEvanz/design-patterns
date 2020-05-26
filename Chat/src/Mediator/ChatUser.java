@@ -7,7 +7,7 @@ public class ChatUser extends User {
     public ChatUser(MessageMediator mediator, String name) {
         super(mediator, name);
         mediator.addUser(this);
-        System.out.println(this.name + "join chat!");
+        System.out.println(this.name + " join chat!");
     }
 
     @Override
